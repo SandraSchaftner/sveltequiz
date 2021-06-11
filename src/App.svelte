@@ -1,6 +1,5 @@
 <script>
 	import Question from './Question.svelte';
-	
 	import ProgressBar from './ProgressBar.svelte';
 	import Option from './Option.svelte';
 	import Result from './Result.svelte';
@@ -89,23 +88,23 @@
 </script>
 
 <style>
-  h1 {
+	 h1 {
 		font-family: 'Overpass', sans-serif;
 		letter-spacing: 2px;
-    color: #ff3e00;
+		color: #ff3e00;
 		text-align: center;
-    text-transform: uppercase;
+		text-transform: uppercase;
 		text-shadow: 2px 1px 5px grey;
-    font-size: 3em;
-    margin-top: 8px;
-    }
+		font-size: 3em;
+		margin-top: 8px;
+	  }
 	
 	.options {
 		max-width: 70%;
-    display: grid;
-    margin: 0.5em auto;
+    		display: grid;
+    		margin: 0.5em auto;
 		font-size: 0.3em;
-    }
+    	}
 	
 	button {
 		width: auto;
@@ -135,7 +134,6 @@
 <!-- {#if ...} {:else if ...} {:else} {/if} is Svelte syntax for conditional rendering -->
 {#if (currentQuestion  < total) }													 
 		{#if !showresult }				 
-			
 			<ProgressBar {currentQuestion}{total}/> 
 			<!-- components are imported like an html tag (but capitalized) -->	
 			<Question questionText={questions[currentQuestion].question}/>
