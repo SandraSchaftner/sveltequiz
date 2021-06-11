@@ -7,7 +7,7 @@
 	import End from './End.svelte';
 	
 	let score = 0;
-  let currentQuestion = 0;
+  	let currentQuestion = 0;
 	$: currentOptions = currentQuestion;
 	let showresult= false;
 	let total = 5;
@@ -96,15 +96,15 @@
 		text-align: center;
     text-transform: uppercase;
 		text-shadow: 2px 1px 5px grey;
-    font-size: 4vw;
+    font-size: 3em;
     margin-top: 8px;
     }
 	
 	.options {
 		max-width: 70%;
     display: grid;
-    margin: 2em auto;
-		font-size: 1vw;
+    margin: 0.5em auto;
+		font-size: 0.3em;
     }
 	
 	button {
@@ -116,10 +116,10 @@
 		padding: 1px 5px;
 		text-align: center;
 		text-decoration: none;
-		font-size: 2vw;
+		font-size: 0.6em;
 		font-family: 'Overpass', sans-serif;
 		transition-duration: 0.2s;
-		margin-top: 8px;
+		margin-top: 1em;
 		margin-right: 25%;
 		float: right;
 	}

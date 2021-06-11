@@ -18,7 +18,7 @@
 		 text-align: center;
      color: #000;
 		 padding: 0 4em;
-		 font-size: 2vw;
+		 font-size: 0.8em;
   } 
 </style>
 

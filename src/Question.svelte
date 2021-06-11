@@ -9,8 +9,8 @@
 		 font-family: 'Overpass', sans-serif;
 		 text-align: center;
      color: #000;
-		 padding: 1 5em;
-		 font-size: 3vw;
+		 padding: 1em 1em;
+		 font-size: 1.2em;
    }    
 </style>
 

@@ -520,8 +520,8 @@ var app = (function () {
     		c: function create() {
     			h1 = element("h1");
     			t = text(/*questionText*/ ctx[0]);
-    			attr_dev(h1, "class", "svelte-1kcngbe");
-    			add_location(h1, file$6, 16, 0, 361);
+    			attr_dev(h1, "class", "svelte-zshzzt");
+    			add_location(h1, file$6, 16, 0, 365);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1384,8 +1384,8 @@ var app = (function () {
     			t3 = text(/*total*/ ctx[1]);
     			t4 = space();
     			create_component(progress.$$.fragment);
-    			attr_dev(div, "class", "margin svelte-1s3mxko");
-    			add_location(div, file$4, 19, 0, 396);
+    			attr_dev(div, "class", "margin svelte-ckznwl");
+    			add_location(div, file$4, 19, 0, 398);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1518,8 +1518,8 @@ var app = (function () {
     		c: function create() {
     			button = element("button");
     			t = text(/*answer*/ ctx[0]);
-    			attr_dev(button, "class", "disabled svelte-uxpdgo");
-    			add_location(button, file$3, 36, 1, 553);
+    			attr_dev(button, "class", "disabled svelte-27wmfx");
+    			add_location(button, file$3, 36, 1, 555);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1555,8 +1555,8 @@ var app = (function () {
     		c: function create() {
     			button = element("button");
     			t = text(/*answer*/ ctx[0]);
-    			attr_dev(button, "class", "svelte-uxpdgo");
-    			add_location(button, file$3, 32, 1, 504);
+    			attr_dev(button, "class", "svelte-27wmfx");
+    			add_location(button, file$3, 32, 1, 506);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1736,9 +1736,9 @@ var app = (function () {
     			attr_dev(iframe, "class", "giphy-embed");
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "You are right");
-    			add_location(iframe, file$2, 30, 5, 643);
-    			attr_dev(div, "class", "svelte-nwf9k2");
-    			add_location(div, file$2, 30, 0, 638);
+    			add_location(iframe, file$2, 30, 5, 645);
+    			attr_dev(div, "class", "svelte-q39w03");
+    			add_location(div, file$2, 30, 0, 640);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1787,11 +1787,11 @@ var app = (function () {
     			attr_dev(iframe, "class", "giphy-embed");
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "You are wrong");
-    			add_location(iframe, file$2, 25, 5, 380);
-    			attr_dev(div, "class", "svelte-nwf9k2");
-    			add_location(div, file$2, 25, 0, 375);
-    			attr_dev(p, "class", "svelte-nwf9k2");
-    			add_location(p, file$2, 26, 0, 581);
+    			add_location(iframe, file$2, 25, 5, 382);
+    			attr_dev(div, "class", "svelte-q39w03");
+    			add_location(div, file$2, 25, 0, 377);
+    			attr_dev(p, "class", "svelte-q39w03");
+    			add_location(p, file$2, 26, 0, 583);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1971,7 +1971,7 @@ var app = (function () {
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "Winner");
     			add_location(iframe, file$1, 44, 6, 1526);
-    			attr_dev(div, "class", "svelte-rt8koz");
+    			attr_dev(div, "class", "svelte-1sv2lt7");
     			add_location(div, file$1, 44, 1, 1521);
     		},
     		m: function mount(target, anchor) {
@@ -2013,7 +2013,7 @@ var app = (function () {
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "Nice job");
     			add_location(iframe, file$1, 41, 6, 1313);
-    			attr_dev(div, "class", "svelte-rt8koz");
+    			attr_dev(div, "class", "svelte-1sv2lt7");
     			add_location(div, file$1, 41, 1, 1308);
     		},
     		m: function mount(target, anchor) {
@@ -2055,7 +2055,7 @@ var app = (function () {
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "Not bad");
     			add_location(iframe, file$1, 38, 5, 1094);
-    			attr_dev(div, "class", "svelte-rt8koz");
+    			attr_dev(div, "class", "svelte-1sv2lt7");
     			add_location(div, file$1, 38, 0, 1089);
     		},
     		m: function mount(target, anchor) {
@@ -2097,7 +2097,7 @@ var app = (function () {
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "You can do better");
     			add_location(iframe, file$1, 35, 5, 861);
-    			attr_dev(div, "class", "svelte-rt8koz");
+    			attr_dev(div, "class", "svelte-1sv2lt7");
     			add_location(div, file$1, 35, 0, 856);
     		},
     		m: function mount(target, anchor) {
@@ -2139,7 +2139,7 @@ var app = (function () {
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "Try again");
     			add_location(iframe, file$1, 32, 5, 637);
-    			attr_dev(div, "class", "svelte-rt8koz");
+    			attr_dev(div, "class", "svelte-1sv2lt7");
     			add_location(div, file$1, 32, 0, 632);
     		},
     		m: function mount(target, anchor) {
@@ -2181,7 +2181,7 @@ var app = (function () {
     			iframe.allowFullscreen = true;
     			attr_dev(iframe, "title", "How did you do that?");
     			add_location(iframe, file$1, 29, 5, 403);
-    			attr_dev(div, "class", "svelte-rt8koz");
+    			attr_dev(div, "class", "svelte-1sv2lt7");
     			add_location(div, file$1, 29, 0, 398);
     		},
     		m: function mount(target, anchor) {
@@ -2233,7 +2233,7 @@ var app = (function () {
     			t3 = space();
     			result = element("result");
     			if_block.c();
-    			attr_dev(p, "class", "svelte-rt8koz");
+    			attr_dev(p, "class", "svelte-1sv2lt7");
     			add_location(p, file$1, 24, 0, 332);
     			add_location(result, file$1, 27, 0, 374);
     		},
@@ -2375,8 +2375,8 @@ var app = (function () {
     			t0 = space();
     			button = element("button");
     			button.textContent = "Restart Quiz";
-    			attr_dev(button, "class", "svelte-o88a59");
-    			add_location(button, file, 169, 1, 4572);
+    			attr_dev(button, "class", "svelte-2pnbe5");
+    			add_location(button, file, 169, 1, 4579);
     		},
     		m: function mount(target, anchor) {
     			mount_component(end, target, anchor);
@@ -2631,8 +2631,8 @@ var app = (function () {
     			t1 = space();
     			div = element("div");
     			if_block.c();
-    			attr_dev(div, "class", "options svelte-o88a59");
-    			add_location(div, file, 141, 3, 3438);
+    			attr_dev(div, "class", "options svelte-2pnbe5");
+    			add_location(div, file, 141, 3, 3445);
     		},
     		m: function mount(target, anchor) {
     			mount_component(progressbar, target, anchor);
@@ -2720,8 +2720,8 @@ var app = (function () {
     		c: function create() {
     			button = element("button");
     			button.textContent = "Finish";
-    			attr_dev(button, "class", "svelte-o88a59");
-    			add_location(button, file, 163, 4, 4414);
+    			attr_dev(button, "class", "svelte-2pnbe5");
+    			add_location(button, file, 163, 4, 4421);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2760,8 +2760,8 @@ var app = (function () {
     		c: function create() {
     			button = element("button");
     			button.textContent = "Next Question";
-    			attr_dev(button, "class", "svelte-o88a59");
-    			add_location(button, file, 161, 4, 4344);
+    			attr_dev(button, "class", "svelte-2pnbe5");
+    			add_location(button, file, 161, 4, 4351);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3128,8 +3128,8 @@ var app = (function () {
     			t1 = space();
     			if_block.c();
     			if_block_anchor = empty();
-    			attr_dev(h1, "class", "svelte-o88a59");
-    			add_location(h1, file, 133, 0, 3059);
+    			attr_dev(h1, "class", "svelte-2pnbe5");
+    			add_location(h1, file, 133, 0, 3066);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

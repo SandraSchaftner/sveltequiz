@@ -12,7 +12,7 @@
 		 text-align: left;
      color: #676778;
 		 padding: 0 4em;
-		 font-size: 2vw;
+		 font-size: 0.8em;
    }
 </style>
 

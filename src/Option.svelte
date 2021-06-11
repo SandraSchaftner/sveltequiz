@@ -10,10 +10,10 @@
 			border: 4px solid #ff3e00;
 			border-radius: 8px;
 			color: white;
-			padding: 5px 5px;
+			padding: 2px 5px;
 			text-align: center;
 			text-decoration: none;
-			font-size: 2vw;
+			font-size: 2.5em;
 			font-family: 'Overpass', sans-serif;
 			transition-duration: 0.2s;	
 	}
