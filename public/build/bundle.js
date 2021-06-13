@@ -3223,7 +3223,7 @@ var app = (function () {
     				"Svelte.component ({props: ['text']})",
     				"function Component1 (props) { ... return (<h1> props.text; </h1>)}",
     				"Component1 = new Component (props);",
-    				"<script> export let props ..."
+    				"<script> export let props; ..."
     			],
     			"correctIndex": 3
     		},
